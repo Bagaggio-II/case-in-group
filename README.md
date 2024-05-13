@@ -101,8 +101,3 @@ Os primeiros 10 números da sequência de Fibonacci são:
 Saída: Os primeiros 10 números da sequência de Fibonacci são: 0 1 1 2 3 5 8 13 21 34
 --------------------------------------------------
 ```
- 
-tem menu de contexto
-
-
-tem menu de contexto
