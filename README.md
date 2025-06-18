@@ -1,5 +1,5 @@
-# Case in Group
----
+# 🧠 Exercícios para Entrevista em Grupo – Estágio
+
 ## Lógica de Programação
 ### O desafio requer que o candidato tenha as seguintes habilidades interpessoais.
 - **Resolução de problemas**: A capacidade de resolver problemas complexos é uma das principais habilidades de um programador.
@@ -7,39 +7,72 @@
 - **Desenvolvimento de habilidades de resolução de bugs**: Ao resolver exercícios de lógica de programação, é comum encontrar bugs e erros em seu código.
 - **Pensamento lógico estruturado**: A lógica de programação é baseada em um pensamento lógico e estruturado, que é essencial para desenvolver algoritmos e programar eficientemente.
 - **Melhoria contínua**: A resolução regular de exercícios de lógica de programação permite que você se desafie constantemente e melhore suas habilidades.
+
+---
+
 ## Linguagens possiveis para a realização
 - Javascript
 - Java
-- C#
-- C
-- C++
 - GO
 - Python
 
-1.  Encontre o maior número em uma lista: Desenvolva um algoritmo para encontrar o maior número em uma lista de valores. 
-- Entrada: [5, 2, 9, 1, 6, 4]
-- Saída: [9]
 ---
-2.  Encontre o menor número em uma lista: Desenvolva um algoritmo para encontrar o menor número em uma lista de valores.
-- Entrada: [5, 2, 9, 1, 6, 4]
-- Saída: [1]
+
+## 1. 📈 Melhor Momento para Comprar e Vender Ação  
+
+### 📝 Descrição:  
+Você recebe um array onde cada valor representa o preço de uma ação em um determinado dia.  
+Seu objetivo é determinar o maior lucro possível ao comprar em um dia e vender em um dia futuro.
+
+### ✅ Exemplo:
+```python
+Input: [7, 1, 5, 3, 6, 4]
+Output: 5  # Compra em 1, vende em 6
+```
+
 ---
-3.  Verifique se um número é par ou ímpar: Escreva um algoritmo que determine se um número é par ou ímpar.
-- Entrada1: 9
-- Entrada2: 10
-- Saída1: 9 ímpar.
-- Saída2: 10 é par.
+
+## 2. 🔢 Número Palíndromo  
+
+### 📝 Descrição:  
+Verifique se um número inteiro é um palíndromo — ou seja, se ele é igual ao seu valor invertido.  
+Exemplo: 121 é palíndromo, -121 não é.
+
+### ✅ Exemplo:
+```python
+Input: 121
+Output: True
+
+Input: -121
+Output: False
+```
+
 ---
-4.  Inverta uma string: Escreva um algoritmo que inverta uma string fornecida como entrada.
-- Entrada: "Hello World!"
-- Saída: "!dlroW olleH"
+
+## 3. ➕ Dois Números que Somam um Alvo  
+
+### 📝 Descrição:  
+Dado um array e um número alvo, encontre os índices de dois números no array cuja soma seja igual ao alvo.
+
+### ✅ Exemplo:
+```python
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]  # 2 + 7 = 9
+```
+
 ---
-5. Verifique se dois conjuntos são iguais: Desenvolva um algoritmo para verificar se dois conjuntos possuem os mesmos elementos.
-- Entrada1: [1, 2, 3, 4, 5]
-- Entrada2: [5, 4, 3, 2, 1]
-- Saída: Os conjuntos são iguais.
----
-6. Leia o salário de um funcionário. Calcule e imprima o valor do novo salário, sabendo que ele recebeu um aumento de 25%.
-- Entrada: 1000.0
-- Saída: 1250.0
----
+
+## 4. 🧪 Fizz Buzz  
+
+### 📝 Descrição:  
+Para cada número de 1 a n:
+- Se for múltiplo de 3, retorne "Fizz"
+- Se for múltiplo de 5, retorne "Buzz"
+- Se for múltiplo de ambos, retorne "FizzBuzz"
+- Caso contrário, retorne o número como string
+
+### ✅ Exemplo:
+```python
+Input: 5
+Output: ["1", "2", "Fizz", "4", "Buzz"]
+```
