@@ -66,7 +66,7 @@ Retorne **apenas** o novo comprimento do array após a remoção.
 
 Você **não precisa** retornar o array modificado.
 
-*Opcional:*
+**Extra**: (*Opcional*)
 - Faça as modificações **in-place**.
 - Garanta que os primeiros `k` elementos contenham os valores corretos.
 
